@@ -1,0 +1,163 @@
+
+/*HEADER WIP */
+.header{    
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 150px;
+    margin-right: 200px;
+}
+
+#doge{
+    width: 100px;
+    height: 100px;
+    order:1;
+    margin-right: auto;
+}
+a{ 
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 10px;
+    order: 2;
+    align-self: center;
+}
+
+/*TOP section*/
+.top{
+    background-color: #1f2937;  
+    
+}
+.introducere{
+    display:flex;
+    max-height: 400px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 100px;
+    padding-bottom:100px;
+}
+
+.textintro{
+ flex:1;  
+}
+
+
+h1 {
+     font-size: 58x;
+    font-weight: 800;
+    color: #f9faf8;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+#palatul{
+    max-width: 600px;
+    max-height: 400px;
+    margin-right:50px;
+    order:4;
+    opacity: 0.75;
+}
+.signup {
+    background-color: #3282f6;
+    border: none;
+    border-radius:12px;
+    color: #f9faf8;
+    padding: 8px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  /* about us section*/
+
+.desprenoi{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/*.desprenoi * {
+    border: 1px solid red;
+    
+}
+*/
+h2{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    align-self: center;
+}
+.imgprofile{
+    display:flex;
+    justify-content: space-between;
+    flex-direction:row;
+}
+.imgprofile p{
+    font-size: 10px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.829);
+}
+.imgprofile img{
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3282f6;
+    border-radius: 10px;
+}
+
+/* reviews section*/
+.recenzii{
+    margin-top: 100px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.recenzii p{
+    font-size: 36px;
+    color: #1f2937;
+    align-self: flex-end;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+/*signup section*/
+.signupsection{
+    color: #e5e7eb;
+    background-color: #3282f6;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 200px;
+    margin-left: 200px;
+    height: 150px;
+    border-radius: 8px;
+}
+.signupsection p{
+    align-self: center;
+    font-size: larger;
+    color: #f9faf8;
+
+}
+.signupsection button{
+    background-color: #3282f6;
+    border: 3px solid white;
+    border-radius:12px;
+    color: #f9faf8;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px ;
+    align-self:center;
+}
+
+/*footer*/
+.footer{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
